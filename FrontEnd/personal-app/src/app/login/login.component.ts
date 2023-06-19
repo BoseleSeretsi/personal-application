@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 //import { TokenStorageService } from '../../_services/token-storage.service';
 
 
@@ -10,11 +11,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+myForm: FormGroup<any>;
+password: any;
+onSubmit() {
+throw new Error('Method not implemented.');
+}
   form: any = {
     username: null,
     password: null
   };
   isLoggedIn = false;
+username: any;
 
 
 
@@ -64,4 +71,6 @@ username: any;
   }
   */
 }
+
+
 

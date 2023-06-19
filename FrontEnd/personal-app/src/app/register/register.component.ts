@@ -47,7 +47,7 @@ firstname : string;
       console.log(data,"logged data");
       
       if (data.length != 0) {
-        this.router.navigate(['/home']);
+        this.router.navigate(['/login']);
         
       }
     });
