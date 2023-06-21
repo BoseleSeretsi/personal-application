@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-3" *ngFor="let product of products">
-      <div class="card" style="margin-top: 50px; cursor: pointer;" [routerLink]="['/product-details', product.id]">
+      <div class="card" style="margin-top: 50px; cursor: pointer;" routerLink="['/product-details', product.id]">
         <img [src]="product.image_url" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">{{product.title}}</h5>
