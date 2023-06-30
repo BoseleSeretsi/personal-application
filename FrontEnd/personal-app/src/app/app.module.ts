@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductdetailComponent } from './productdetail/productdetail.component';
 import { AuthServiceComponent } from './auth-service/auth-service.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { AloginComponent } from './admin/alogin/alogin.component';
 
 
 
@@ -29,7 +31,9 @@ import { AuthServiceComponent } from './auth-service/auth-service.component';
     ProfileComponent,
     HomeComponent,
     ProductdetailComponent,
-    AuthServiceComponent
+    AuthServiceComponent,
+    DashboardComponent,
+    AloginComponent
   ],
   imports: [
     BrowserModule,
